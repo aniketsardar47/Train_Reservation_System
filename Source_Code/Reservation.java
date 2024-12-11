@@ -24,8 +24,8 @@ public class Reservation extends JFrame {
     
     //connection
     String jdbcUrl = "jdbc:mysql://localhost:3306/train_reservation_system";
-        String username = "aniket";
-        String password = "aniket47";
+        String username = "-";
+        String password = "-";
     
      Reservation(){
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();

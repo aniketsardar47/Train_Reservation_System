@@ -32,8 +32,8 @@ public class temp extends JFrame implements ActionListener
 
     //connection 
     protected String url = "jdbc:mysql://localhost:3306/train_reservation_system";
-    protected String username = "aniket";
-    protected String password = "aniket47";
+    protected String username = "-";
+    protected String password = "-";
 
     //encryption
     KeyPair keyPair;

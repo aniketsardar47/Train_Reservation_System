@@ -12,7 +12,7 @@ public class ShowResult extends JFrame{
         setVisible(true);
         setLocation(600, 100);
         try{
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/train_reservation_system","aniket","aniket47");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/train_reservation_system","-","-");
         String sql = "select * from Trains where TrainID = ?";
         PreparedStatement ps = con.prepareStatement(sql);
         ps.setInt(1,result);

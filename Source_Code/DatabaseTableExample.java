@@ -14,8 +14,8 @@ public class DatabaseTableExample extends JPanel{
     public DatabaseTableExample() {
         // Define database connection parameters
         String jdbcUrl = "jdbc:mysql://localhost:3306/train_reservation_system";
-        String username = "aniket";
-        String password = "aniket47";
+        String username = "-";
+        String password = "-";
 
         setSize(700,700);
 

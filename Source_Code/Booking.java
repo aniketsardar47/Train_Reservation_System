@@ -25,7 +25,7 @@ public class Booking extends JFrame implements ActionListener
     Booking(int id)
      {
         this.id = id;
-        try( Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/train_reservation_system","aniket", "aniket47");)
+        try( Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/train_reservation_system","-", "-");)
         {
             PreparedStatement sql= con.prepareStatement("Select Price from Trains where TrainID= ?");
      sql.setInt(1,id);

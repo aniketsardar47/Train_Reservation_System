@@ -16,8 +16,8 @@ public class TrainTicketGenerator {
 
     public TrainTicketGenerator(int ticketId,int total,int price) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/train_reservation_system";
-        String dbUser = "aniket";
-        String dbPassword = "aniket47";
+        String dbUser = "-";
+        String dbPassword = "-";
 
         try (Connection connection = DriverManager.getConnection(jdbcUrl, dbUser, dbPassword)) {
             

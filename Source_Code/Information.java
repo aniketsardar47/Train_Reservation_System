@@ -15,11 +15,11 @@ public class Information{
 
         //connection 
     protected String url = "jdbc:mysql://localhost:3306/train_reservation_system";
-    protected String usernamedba = "aniket";
-    protected String passworddba = "aniket47";
+    protected String usernamedba = "-";
+    protected String passworddba = "-";
 
     //encryptions
-    String secretKey = "AlienFromTheMoon"; 
+    String secretKey = "SecretEncryption"; 
 
 
      Reservation2 r1;
